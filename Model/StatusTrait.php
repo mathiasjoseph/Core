@@ -6,7 +6,7 @@
  * Time: 19:04
  */
 
-namespace Adevis\Component\Core\Model;
+namespace Miky\Component\Core\Model;
 
 use Doctrine\ORM\Mapping as ORM;
 

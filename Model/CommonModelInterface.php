@@ -6,7 +6,7 @@
  * Time: 00:20
  */
 
-namespace Adevis\Component\Core\Model;
+namespace Miky\Component\Core\Model;
 
 
 interface CommonModelInterface
