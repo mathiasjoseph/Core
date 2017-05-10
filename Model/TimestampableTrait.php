@@ -180,9 +180,4 @@ trait TimestampableTrait
         $this->sortDate = $sortDate;
     }
 
-
-
-
-
-
 }

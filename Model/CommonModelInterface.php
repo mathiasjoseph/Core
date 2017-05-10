@@ -9,7 +9,7 @@
 namespace Miky\Component\Core\Model;
 
 
-interface CommonModelInterface
+interface CommonModelInterface extends StatusInterface, TimestampableInterface
 {
 
 }
