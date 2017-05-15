@@ -15,12 +15,12 @@ trait StatusTrait
     /**
      * @var boolean
      */
-    protected $drafted = true;
+    protected $drafted = false;
 
     /**
      * @var boolean
      */
-    protected $enabled;
+    protected $enabled = true;
 
     /**
      * @var boolean
