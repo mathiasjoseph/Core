@@ -20,7 +20,9 @@ trait StatusTrait
     /**
      * @var boolean
      */
-    protected $enabled = true;
+    protected $enabled;
+
+
 
     /**
      * @var boolean
