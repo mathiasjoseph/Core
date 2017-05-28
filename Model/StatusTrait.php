@@ -22,8 +22,6 @@ trait StatusTrait
      */
     protected $enabled;
 
-
-
     /**
      * @var boolean
      */
