@@ -8,8 +8,6 @@
 
 namespace Miky\Component\Core\Model;
 
-use Doctrine\ORM\Mapping as ORM;
-
 trait StatusTrait
 {
     /**
