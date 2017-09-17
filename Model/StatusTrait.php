@@ -23,22 +23,7 @@ trait StatusTrait
     /**
      * @var boolean
      */
-    protected $validated = false;
-
-    /**
-     * @var boolean
-     */
     protected $confirmed = false;
-
-    /**
-     * @var boolean
-     */
-    protected $pendingValidation = false;
-
-    /**
-     * @var boolean
-     */
-    protected $certified = false;
 
     /**
      * @return bool
@@ -78,37 +63,6 @@ trait StatusTrait
         $this->enabled = $enabled;
     }
 
-    /**
-     * @return boolean
-     */
-    public function getValidated()
-    {
-        return $this->validated;
-    }
-
-    /**
-     * @param boolean $validated
-     */
-    public function setValidated($validated)
-    {
-        $this->validated = $validated;
-    }
-
-    /**
-     * @return boolean
-     */
-    public function getPendingValidation()
-    {
-        return $this->pendingValidation;
-    }
-
-    /**
-     * @param boolean $pendingValidation
-     */
-    public function setPendingValidation($pendingValidation)
-    {
-        $this->pendingValidation = $pendingValidation;
-    }
 
     /**
      * @return boolean
@@ -126,21 +80,6 @@ trait StatusTrait
         $this->confirmed = $confirmed;
     }
 
-    /**
-     * @return boolean
-     */
-    public function getCertified()
-    {
-        return $this->certified;
-    }
-
-    /**
-     * @param boolean $certified
-     */
-    public function setCertified($certified)
-    {
-        $this->certified = $certified;
-    }
 
     /**
      * @return boolean

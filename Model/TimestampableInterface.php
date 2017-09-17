@@ -34,16 +34,6 @@ interface TimestampableInterface
     /**
      * @return \DateTime
      */
-    public function getValidatedAt();
-
-    /**
-     * @param \DateTime $validatedAt
-     */
-    public function setValidatedAt(\DateTime $validatedAt = null);
-
-    /**
-     * @return \DateTime
-     */
     public function getExpiresAt();
 
     /**

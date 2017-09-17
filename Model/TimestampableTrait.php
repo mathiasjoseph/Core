@@ -21,10 +21,6 @@ trait TimestampableTrait
      */
     protected $updatedAt = null;
 
-    /**
-     * @var \DateTime Validation date
-     */
-    protected $validatedAt = null;
 
     /**
      * @var \DateTime Sorting date
@@ -83,21 +79,6 @@ trait TimestampableTrait
         $this->updatedAt = $updatedAt;
     }
 
-    /**
-     * @return \DateTime
-     */
-    public function getValidatedAt()
-    {
-        return $this->validatedAt;
-    }
-
-    /**
-     * @param \DateTime $validatedAt
-     */
-    public function setValidatedAt(\DateTime $validatedAt = null)
-    {
-        $this->validatedAt = $validatedAt;
-    }
 
     /**
      * @return \DateTime

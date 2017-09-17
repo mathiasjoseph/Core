@@ -34,43 +34,12 @@ interface StatusInterface
     /**
      * @return boolean
      */
-    public function getValidated();
-
-    /**
-     * @param boolean $validated
-     */
-    public function setValidated($validated);
-
-    /**
-     * @return boolean
-     */
-    public function getPendingValidation();
-
-    /**
-     * @param boolean $pendingValidation
-     */
-    public function setPendingValidation($pendingValidation);
-
-
-    /**
-     * @return boolean
-     */
     public function getConfirmed();
 
     /**
      * @param boolean $confirmed
      */
     public function setConfirmed($confirmed);
-
-    /**
-     * @return boolean
-     */
-    public function getCertified();
-
-    /**
-     * @param boolean $certified
-     */
-    public function setCertified($certified);
 
 
     /**
