@@ -13,11 +13,6 @@ trait StatusTrait
     /**
      * @var boolean
      */
-    protected $drafted = false;
-
-    /**
-     * @var boolean
-     */
     protected $enabled;
 
     /**
@@ -31,21 +26,6 @@ trait StatusTrait
     protected $expired = false;
 
 
-    /**
-     * @return boolean
-     */
-    public function getDrafted()
-    {
-        return $this->drafted;
-    }
-
-    /**
-     * @param boolean $drafted
-     */
-    public function setDrafted($drafted)
-    {
-        $this->drafted = $drafted;
-    }
 
     /**
      * @return boolean

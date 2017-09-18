@@ -11,15 +11,6 @@ namespace Miky\Component\Core\Model;
 
 interface StatusInterface
 {
-    /**
-     * @return boolean
-     */
-    public function getDrafted();
-
-    /**
-     * @param boolean $drafted
-     */
-    public function setDrafted($drafted);
 
     /**
      * @return boolean
