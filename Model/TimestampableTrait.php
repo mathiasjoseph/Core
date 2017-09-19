@@ -37,10 +37,6 @@ trait TimestampableTrait
      */
     protected $enabledAt = null;
 
-    /**
-     * @var \DateTime Certification date
-     */
-    protected $certifiedAt= null;
 
        /**
         * @var \DateTime Confirmation date
@@ -112,22 +108,6 @@ trait TimestampableTrait
         $this->enabledAt = $enabledAt;
     }
 
-
-    /**
-     * @return \DateTime
-     */
-    public function getCertifiedAt()
-    {
-        return $this->certifiedAt;
-    }
-
-    /**
-     * @param \DateTime $certifiedAt
-     */
-    public function setCertifiedAt(\DateTime $certifiedAt = null)
-    {
-        $this->certifiedAt = $certifiedAt;
-    }
 
     /**
      * @return \DateTime

@@ -51,15 +51,6 @@ interface TimestampableInterface
      */
     public function setEnabledAt(\DateTime $enabledAt = null);
 
-    /**
-     * @return \DateTime
-     */
-    public function getCertifiedAt();
-
-    /**
-     * @param \DateTime $certifiedAt
-     */
-    public function setCertifiedAt(\DateTime $certifiedAt = null);
 
     /**
      * @return \DateTime
