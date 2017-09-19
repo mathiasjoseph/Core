@@ -25,7 +25,7 @@ trait TimestampableTrait
     /**
      * @var \DateTime Sorting date
      */
-    protected $sortDate = null;
+    protected $sortDate;
 
     /**
      * @var \DateTime Expiration date

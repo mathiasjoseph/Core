@@ -22,6 +22,9 @@ trait CommonModelTrait
 
     public function persistTimestampable()
     {
+        if ($this->getSortDate() == null){
+            $this->setSortDate(new \DateTime());
+        }
         $this->setCreatedAt(new \DateTime());
         $this->setUpdatedAt(new \DateTime());
 
